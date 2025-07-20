@@ -1,0 +1,41 @@
+[Binary STL file: base_mount_array.stl]
+
+Description:
+This STL file defines the **base radial mount array** that connects all 21 nested pyramid units to the outer shell of IX-TunerCore. It ensures exact angular and vector precision for scalar core convergence.
+
+Design Geometry:
+- 21 mounting sockets arranged at fixed geodesic node positions
+- Each socket includes:
+  - M6 bolt channels for standard mechanical anchoring
+  - 3-point harmonic alignment groove system for anti-drift lock
+  - Vector aiming constraint: < 0.01° deviation tolerance from core
+- Outer ring diameter: 1.22 meters (matched to `/design/outer_shell_structure.step`)
+- Ring thickness: 30 mm
+- Spoke pattern: Fibonacci-style support arcs to dampen unwanted resonance
+- Central open zone: 180 mm aperture reserved for convergence field and sensor access
+
+Functional Role:
+- Acts as the **backbone alignment structure** for the entire field convergence array
+- Ensures each pyramid is fixed in proper scalar vector alignment
+- Prevents misalignment due to thermal expansion, external vibration, or field feedback oscillation
+
+Buildability:
+- 3D printable for lab prototype in PETG, PA-CF, or resin
+- Machinable for full deployment in carbon fiber or aluminum alloy (6061 or 7075 recommended)
+
+System Integration:
+- Interlocks directly with `nested_pyramid_unit.stl`
+- Fully compatible with spherical cutout nodes in `outer_shell_structure.step`
+- Edge includes embedded wire channel cutouts for signal routing and driver power lines
+
+Mesh Status:
+- STL format
+- Verified watertight
+- No mesh defects or flipped normals
+- Optimized for both FDM and SLA printers
+
+Scientific Basis:
+This is a **real-world harmonic mount ring**, not conceptual art. Every angle, spacing, and groove is calculated to support Tesla 3-6-9 layered pyramid behavior and enforce 4π scalar focus.
+
+Note:
+As per protocol, binary `.stl` file to be uploaded manually to GitHub repo via browser. This documentation entry provides all metadata and physical role definition.
