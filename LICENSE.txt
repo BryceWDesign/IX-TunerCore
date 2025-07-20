@@ -1,0 +1,35 @@
+IX-TunerCore License Agreement
+Copyright (c) 2025 Bryce Wooster
+
+Permission is hereby granted, free of charge, to any person or organization obtaining a copy of this project and associated documentation files (the “Project”), to use, modify, merge, publish, and distribute copies of the Project, subject to the following conditions:
+
+1. NO MILITARY OR WEAPONIZED USAGE:
+   This Project shall not be used, directly or indirectly, for the development, design, manufacture, or testing of weapons or offensive systems of any kind, including (but not limited to) military-grade hardware, lethal autonomous systems, kinetic or electromagnetic weaponry, or surveillance tools designed to cause harm.
+
+2. NON-COMMERCIAL USE ONLY:
+   Commercial use of this Project is prohibited without express written permission from the original author, Bryce Wooster. Use is limited to private research, open-source collaboration, scientific education, or peaceful humanitarian applications.
+
+3. EXPORT COMPLIANCE & JURISDICTION:
+   This Project shall not be exported, shared, or made accessible to any country or entity subject to sanctions, embargoes, or export restrictions under the laws of the United States, European Union, or United Nations. Use by entities or individuals affiliated with government agencies of the Russian Federation, People’s Republic of China, Democratic People's Republic of Korea, or any paramilitary groups is strictly prohibited.
+
+4. PRESERVATION OF ATTRIBUTION:
+   Any redistribution of the Project must include full and prominent attribution to the original author, Bryce Wooster, and must include this license file in all copies or substantial portions of the Project.
+
+5. NO LIABILITY:
+   The Project is provided “as is”, without warranty of any kind. Under no circumstance shall the author be liable for any claim, damage, or other liability arising from the use, misuse, or inability to use the Project.
+
+6. NO WARRANTY OF FITNESS FOR PURPOSE:
+   The author makes no warranty that this Project is suitable for any specific application or environment, especially those involving human life support, medical systems, or critical infrastructure.
+
+7. ETHICAL INTEGRITY CLAUSE:
+   Users are expected to uphold the highest standards of scientific and ethical conduct in their use of this Project. Any use that violates international human rights, environmental safety, or ethical research standards automatically voids this license.
+
+---
+
+This license grants a unique combination of freedom and responsibility. It is written to ensure this work remains in the hands of responsible creators, researchers, and engineers—never as a tool of harm.
+
+---
+
+Approved and Authored By:  
+Bryce Wooster  
+July 2025
