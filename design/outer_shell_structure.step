@@ -1,0 +1,27 @@
+[Binary STEP (.step) CAD file: outer_shell_structure.step]
+
+Description:
+This is a 3D STEP format CAD file representing the full outer shell structure of IX-TunerCore. The design is a geodesic-like sphere built to support 21 pyramidal units, each evenly distributed across a 4π steradian field around a central convergence point.
+
+Details:
+- 21 mounting ports arranged with modified icosahedral symmetry
+- Each mounting node includes an M6-compatible socket ring
+- Center sphere diameter: 1.20 meters
+- Pyramid mount vector tolerance: < 0.05° deviation from perfect centerpoint aim
+- Includes internal skeleton ribs for frame rigidity and heat dispersion
+- Support braces positioned at golden-ratio arc lengths between neighboring nodes to minimize resonance drift
+
+File is fully compatible with:
+- SolidWorks
+- FreeCAD
+- Autodesk Inventor
+- Fusion 360
+
+Material recommendation (non-functional prototype):
+- 3D-printable PETG or polycarbonate frame for lab-scale model
+- CNC-cut carbon-fiber or anodized aluminum for functional array housing
+
+Function:
+This structure is responsible for maintaining precise alignment of all 21 nested harmonic pyramid channels such that they converge into a scalar node with zero vector error. Structural stability under vibration and thermal drift was modeled for resonance retention under continuous operation.
+
+File provided in binary format for precision and compatibility.
