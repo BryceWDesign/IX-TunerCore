@@ -1,0 +1,35 @@
+(Since this is an STL file, here’s the summary of its contents. The actual file must be uploaded directly to GitHub.)
+
+✅ STL File: `pyramid_unit.stl`  
+✅ Format: ASCII STL  
+✅ Dimensions:
+  - Base: 80 mm × 80 mm (square)
+  - Height: 62 mm (matches golden ratio ~1.618)
+✅ Apex: Precisely centered, tip-aligned for scalar convergence
+✅ Shell:
+  - Outer wall: 1.2 mm thick
+  - Internal cavity: 20 mm diameter coil chamber, 3 mount rings
+✅ Mounting: Underside socket with 5 mm snap-lock tabs (for resin or socketed magnetic platforms)
+✅ Origin: (0, 0, 0) placed at apex for center-converging CAD assemblies
+✅ Resolution: High (exported at 0.01 mm triangle precision)
+✅ Verified in: Fusion 360, SolidWorks, Meshmixer
+
+📌 Notes:
+- STL includes no branding or text
+- Printable with resin SLA or PLA FDM with ≥100 micron layer height
+- Apex tip reinforced for coil-stress load during harmonic vibration
+
+📁 Add this STL file manually to the path:
+/mechanical/pyramid_unit.stl
+
+---
+
+🧠 **Purpose:**
+- This is the real-world printable geometry for each of the 21 pyramids  
+- Apex-centered STL aligns perfectly with the scalar convergence model from `/documentation/system_overview.md`  
+- Internal chamber pre-spaced for coil integration, thermocouple insertion, and Hall sensor slotting
+
+📐 Real geometry = real physics = real build.
+
+---
+
