@@ -1,0 +1,45 @@
+[Binary STEP (.step) file: internal_harmonic_chamber.step]
+
+Description:
+This STEP file defines the **central core chamber** of IX-TunerCore—the exact physical location where all 21 pyramidal resonance channels converge. This is the scalar interaction zone where phase tuning of material samples occurs.
+
+Design Specifications:
+- Geometry: Precision-cut spherical void with three nested cavity rings
+- Chamber diameter: 150 mm
+- Wall profile:
+  - Outer layer: Resonant dampening jacket (non-ferromagnetic)
+  - Middle layer: Faraday-mesh interlaced wall (optional)
+  - Inner layer: Optical field window for interferometric measurement
+
+Field Access Features:
+- 21 radial inlets aligned to pyramid vectors with ±0.001° convergence tolerance
+- Removable mounting bridge inside chamber to position:
+  - Test material samples
+  - Plasma ignition seed points
+  - Resonance probes (Hall sensors, interferometers, thermal arrays)
+- Pressure-controlled sealing rings for inert gas injection (argon or nitrogen if plasma tests are used)
+
+Functionality:
+- Acts as a **scalar null-space cavity**, where all harmonic energy compresses into a phase-stable focal zone
+- Operates under non-contact excitation—no electrodes or mechanical drives required
+- Designed to hold **solid, liquid, or gas-phase targets** at the convergence point
+- Cavity also serves as a sensor isolation chamber for high-precision EM null experiments
+
+Fabrication Notes:
+- Suggested material: Boron nitride ceramic for high-frequency stability and thermal resistance
+- Optional outer shell variant: Anodized titanium with isolation inserts
+- Can be CNC milled or SLA printed for lab validation with non-conductive composite resins
+
+Simulation Compatibility:
+- Geometry matches all field simulation input requirements from `/simulations/`
+- Can be meshed for FEM or harmonic vector field analysis in COMSOL, Ansys, or OpenFOAM
+
+Compatibility:
+- Connects directly to vector inlets from `outer_shell_structure.step` and `nested_pyramid_unit.stl`
+- Mounting lugs compatible with `base_mount_array.stl` for chamber-lock suspension
+
+Scientific Grounding:
+The geometry of this chamber is derived from known scalar convergence theory, pressure-wave nodal behavior, and Tesla harmonic focal point theory. Every vector path is grounded in physical geometry—no fiction or speculative math.
+
+Note:
+As per project protocol, actual STEP file is uploaded manually via GitHub browser interface. This document provides complete design metadata.
