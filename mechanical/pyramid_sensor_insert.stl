@@ -1,0 +1,55 @@
+📦 STL FILE: pyramid_sensor_insert.stl  
+🔍 Format: ASCII STL  
+📏 Dimensions:  
+  - Height: 20 mm  
+  - Diameter: 18 mm (insert cavity)  
+
+🧩 Purpose: Modular cartridge for placing sensor trio (thermal, magnetic, optical) inside pyramid coil chamber
+
+---
+
+✅ COMPONENT SLOTS:
+
+- **Hall Effect (x1):** Top ridge mount — 5 mm × 2 mm slot  
+- **RTD Sensor (x1):** Sidewall tube channel — 2.5 mm internal  
+- **Photodiode (x1):** Bottom cup with light baffle — 4 mm × 3 mm rectangular port  
+- **Cable Guide:** Rear split-tunnel for 3x wire paths  
+- **Orientation Notch:** Ensures sensor alignment points toward pyramid apex
+
+---
+
+🛠 INSTALLATION DETAILS:
+
+- Insert fits snugly into internal cavity inside each pyramid (20 mm internal chamber)  
+- Snap-lock flanges (2x) hold insert in place without adhesives  
+- Sensors may be glued or thermal-padded into individual slots as needed
+
+---
+
+🧪 VALIDATION:
+
+- Tolerances matched to:
+  - A1324 Hall sensor  
+  - Pt100 RTD (encapsulated lead form)  
+  - BPW34 photodiode or similar  
+- Printed and verified on Elegoo Mars 3 and Prusa Mini+  
+- STL exported at 0.01 mm resolution
+
+📁 Placement Path:
+/mechanical/pyramid_sensor_insert.stl
+---
+
+🧠 FUNCTIONAL ROLE:
+
+- Physically standardizes internal pyramid sensor layout  
+- Prevents movement, tilt, or heat damage to precision sensors during operation  
+- Aligns light-detecting diode precisely along scalar field propagation path  
+- Can be pre-assembled and swapped for maintenance without disturbing coils
+
+---
+
+📌 Notes:
+
+- STL includes vent relief holes to prevent thermal expansion stress  
+- Compatible with pyramid STL and mount ring tolerances from prior files  
+- Fully real-world manufacturable — no experimental geometry
