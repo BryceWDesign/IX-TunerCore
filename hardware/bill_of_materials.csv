@@ -1,0 +1,19 @@
+Component,Material,Qty,Unit,Source,Use Case,Notes
+Outer Shell Frame,Aluminum 6061,1,unit,McMaster-Carr,Structural housing,Sized for 1.2m diameter
+Base Mount Array,Polycarbonate (CNC),1,unit,SendCutSend,Precision alignment,Mounts 21 pyramids
+Rotation Offset Plate,CFRP,1,unit,Markforged or Xometry,Desynchronization control,Optional but recommended
+Pyramid Shells (Outer),Boron Nitride Ceramic,21,units,Precision Ceramics UK,Harmonic cavity outer,3f₀ layer shell
+Pyramid Shells (Mid),Quartz,21,units,United Lens,Harmonic cavity middle,6f₀ layer shell
+Pyramid Shells (Inner),Polished Tungsten or Silvered Quartz,21,units,Edmund Optics,Harmonic cavity inner,9f₀ scalar initiator
+Harmonic Chamber,Fused Silica (Machined),1,unit,Precision Glass & Optics,Scalar convergence zone,Central target volume
+Field Focus Lens,Quartz or Sapphire,1,unit,Thorlabs,Field compression lens,Installs in front of chamber
+Central Target Capsule,Fused Silica or Acrylic,3,units,McMaster-Carr,Sample holder,Spare and test units
+Internal Spacers,Borosilicate Rods,63,units,McMaster-Carr,Layer suspension,Non-field-reactive supports
+Mounting Fasteners,Stainless M6 Bolts,100,units,McMaster-Carr,Assembly hardware,Non-magnetic grade recommended
+Wiring Channels,Shielded PTFE Loom,5,meters,Digikey,Signal routing,Insulated high-Q path
+Coils (3f₀-9f₀),Enameled Copper AWG 24,100,meters,Remington or TemCo,Field driver,High Q magnet wire
+Driver Boards,Harmonic DDS Modules,3,units,Analog Devices or Waveshare,Signal generation,3f₀ / 6f₀ / 9f₀ independent control
+Sensor Array,Thermocouple / Hall / Optical,12,units,Adafruit / Digikey,Feedback control,Plugs into probe ports
+Power Supply,0–48V Programmable DC,1,unit,TekPower or Siglent,Driver power,Regulated DC delivery
+Cooling Fans,Low-EM Brushless Units,2,units,Noctua or Arctic,Passive ventilation,Optional based on runtime
+
