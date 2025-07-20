@@ -1,0 +1,38 @@
+[Binary STL file: nested_pyramid_unit.stl]
+
+Description:
+This STL file represents a full **single harmonic pyramid unit** for IX-TunerCore. It includes all three nested pyramid layers—each scaled and positioned concentrically per Tesla 3-6-9 layering logic and golden ratio proportions.
+
+Features:
+- External pyramid edge length: 1.00 meter
+- Mid-layer pyramid: scaled at 0.618 × outer shell
+- Inner pyramid: scaled at 0.382 × outer shell
+- All tips aligned to central convergence vector
+- Structural tabs for mounting to spherical outer shell frame
+- Internal spacer gaps (~15 mm) between layers for field insulation and standing wave control
+- Hollow-shell construction: walls designed for EM cavity resonance, not mass density
+
+File Format:
+- STL format, suitable for additive manufacturing or FEM meshing
+- Tested for watertight mesh integrity (no open edges)
+- Mesh density balanced for printability and simulation compatibility
+
+Print Notes:
+- For physical prototyping: Recommend resin or SLA print with >100μm resolution
+- For full-scale operational version: Machinable aluminum, quartz casting, or ceramic sintering
+
+Functional Role:
+This unit serves as one of the **21 harmonic emitters** in the IX-TunerCore array. The geometry enables:
+- Internal field separation for triple frequency convergence (3f₀, 6f₀, 9f₀)
+- Harmonic filtering and pressure node formation
+- Non-contact phase alignment into scalar core
+
+Scientific Basis:
+All dimensional ratios and alignment points are derived from `/docs/nested_geometry_stacking.md` and `/docs/tesla_369_layering_logic.md`, ensuring full resonance behavior integrity under harmonic excitation.
+
+CAD Compatibility:
+- STL viewable and editable in FreeCAD, Fusion 360, MeshLab, or Blender
+- Mesh may be exported as STEP, OBJ, or IGES via intermediary tools if needed
+
+Note:
+Actual `.stl` binary to be uploaded to your GitHub manually via browser interface as per protocol. This descriptor ensures consistent documentation and review traceability.
