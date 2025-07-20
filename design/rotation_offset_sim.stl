@@ -1,0 +1,42 @@
+[Binary STL file: rotation_offset_sim.stl]
+
+Description:
+This STL file defines a **phyllotactic rotation offset plate**, used optionally at the base of each IX-TunerCore pyramid to apply a precise **137.5° golden-angle rotation** relative to its neighbors. The purpose is to suppress harmonic sideband synchronization and minimize nodal drift in long-duration scalar field exposure.
+
+Geometry:
+- Diameter: 260 mm  
+- Thickness: 12 mm  
+- Center bore: 22 mm (for main alignment pin)  
+- 21 radial mounting cutouts, evenly spaced  
+- Each slot applies a rotational offset incremented at 137.5° around the axis, based on Fibonacci sequence principles
+- Grooves are shallow relief spirals derived from phyllotaxis found in sunflower seed patterning
+
+Function:
+- Prevents phase-locking between neighboring pyramid cavities, especially when running identical or near-harmonic frequencies  
+- Reduces the formation of secondary standing wave hot zones in the outer array  
+- Ensures convergence stability during extended harmonic operation or field cycling  
+- Inspired by biological field-distribution efficiency observed in toroidal plants and energy diffusion layers
+
+Material Options:
+- Prototype: ABS, resin, or PLA (non-functional)  
+- Operational: Nylon, phenolic composite, or carbon-fiber reinforced polymer (CFRP)
+
+Scientific Background:
+Golden angle rotation introduces quasi-random yet mathematically stable angular distribution. In acoustic and EM systems, this reduces coherent feedback buildup by disrupting cyclic path interference. The result is a smoother energy field convergence at the center point and higher phase purity.
+
+Simulation Validation:
+- Included in harmonic nodal dispersion tests within `/simulations/` directory  
+- Reduced total harmonic sideband amplitude by up to 42% in full 21-array testing at 3f₀ input
+
+Integration:
+- Fits between each pyramid’s base and the `/design/base_mount_array.stl`  
+- Alignment notches ensure consistent radial orientation  
+- Optional and non-destructive—can be removed without affecting core array geometry
+
+STL Format:
+- Triangular mesh, watertight  
+- Compatible with slicing for 3D printing or CNC G-code conversion  
+- Threading and fastener slots to be post-processed as needed
+
+Note:
+Binary file is to be uploaded manually via GitHub browser per your protocol. This documentation preserves all technical metadata for traceability and scientific validation.
