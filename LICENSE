@@ -1,28 +1,35 @@
-IX Open Harmonic Field License v1.0
+IX-TunerCore License Agreement
 Copyright (c) 2025 Bryce Wooster
 
-Permission is hereby granted, free of charge, to any person, group, or organization obtaining a copy of this system and associated documentation files (the "Project"), to use, reproduce, modify, publish, distribute, and build upon the Project, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person or organization obtaining a copy of this project and associated documentation files (the “Project”), to use, modify, merge, publish, and distribute copies of the Project, subject to the following conditions:
 
-1. OPEN CIVILIAN USE ONLY
-   This Project is licensed exclusively for peaceful, non-military, and civilian applications. Use of this Project, in whole or in part, in weapons systems, offensive defense platforms, or for purposes of harm or destruction is strictly prohibited.
+1. NO MILITARY OR WEAPONIZED USAGE:
+   This Project shall not be used, directly or indirectly, for the development, design, manufacture, or testing of weapons or offensive systems of any kind, including (but not limited to) military-grade hardware, lethal autonomous systems, kinetic or electromagnetic weaponry, or surveillance tools designed to cause harm.
 
-2. NON-EXPORT RESTRICTION COMPLIANCE
-   This Project shall not be classified under the United States Munitions List (USML), Wassenaar Arrangement, or fall under ITAR/EAR weapon-related restrictions. It is the responsibility of any party replicating, modifying, or deploying the Project to ensure compliance with international civilian-use standards.
+2. NON-COMMERCIAL USE ONLY:
+   Commercial use of this Project is prohibited without express written permission from the original author, Bryce Wooster. Use is limited to private research, open-source collaboration, scientific education, or peaceful humanitarian applications.
 
-3. NON-CLASSIFIED, NON-RESTRICTED STATUS
-   This Project is released as an open scientific work for educational and observational purposes. No portion of this repository may be claimed, classified, sequestered, or obfuscated by any government, defense, or corporate body seeking to restrict its civilian access or open-source nature.
+3. EXPORT COMPLIANCE & JURISDICTION:
+   This Project shall not be exported, shared, or made accessible to any country or entity subject to sanctions, embargoes, or export restrictions under the laws of the United States, European Union, or United Nations. Use by entities or individuals affiliated with government agencies of the Russian Federation, People’s Republic of China, Democratic People's Republic of Korea, or any paramilitary groups is strictly prohibited.
 
-4. ATTRIBUTION
-   All derivative works, modifications, or re-publications must retain visible attribution to the original author:
-   “Original scalar harmonic field system design by Bryce Wooster (2025) under IX Open Harmonic Field License v1.0”
+4. PRESERVATION OF ATTRIBUTION:
+   Any redistribution of the Project must include full and prominent attribution to the original author, Bryce Wooster, and must include this license file in all copies or substantial portions of the Project.
 
-5. NO WARRANTY
-   This Project is provided "as is", without warranty of any kind, express or implied, including but not limited to merchantability or fitness for a particular purpose. The entire risk of system integration, field use, or data output remains with the user.
+5. NO LIABILITY:
+   The Project is provided “as is”, without warranty of any kind. Under no circumstance shall the author be liable for any claim, damage, or other liability arising from the use, misuse, or inability to use the Project.
 
-6. COMMUNITY EXTENSION ALLOWED
-   Enhancements, parallel systems, or commercial adaptations of this Project are permitted so long as attribution is maintained and clauses 1–3 remain in full effect. Any violation of these terms voids the license.
+6. NO WARRANTY OF FITNESS FOR PURPOSE:
+   The author makes no warranty that this Project is suitable for any specific application or environment, especially those involving human life support, medical systems, or critical infrastructure.
+
+7. ETHICAL INTEGRITY CLAUSE:
+   Users are expected to uphold the highest standards of scientific and ethical conduct in their use of this Project. Any use that violates international human rights, environmental safety, or ethical research standards automatically voids this license.
 
 ---
 
-This license ensures global civilian availability, protects against defense co-option, and reinforces the project’s integrity as a scientific and open harmonic research platform.
+This license grants a unique combination of freedom and responsibility. It is written to ensure this work remains in the hands of responsible creators, researchers, and engineers—never as a tool of harm.
 
+---
+
+Approved and Authored By:  
+Bryce Wooster  
+July 2025
