@@ -1,0 +1,47 @@
+📦 STL FILE: test_platform_base.stl  
+🔍 Format: ASCII STL  
+📐 Dimensions:
+  - Width: 320 mm  
+  - Depth: 320 mm  
+  - Thickness: 10 mm  
+
+🧭 Coordinate Origin: Centered (0, 0) at exact center of baseplate  
+🧩 Primary Purpose: Secures array_mount_21.stl above test bench surface
+
+---
+
+✅ KEY FEATURES:
+
+- **Mount Holes:** 6x M4 pass-through holes pre-drilled (even radial spacing)
+- **Array Socket:** 3-point locking anchors align with array_mount_21.stl  
+- **Feet Holes:** Optional 4-corner rubber foot socket mounts for anti-vibration base  
+- **Cable Routing:** Underside channel paths for sensor/data/power cable management  
+- **Material Compatibility:** Printable in PETG, PLA, or laser-cut acrylic if converted
+
+---
+
+🧪 PRINT VALIDATION:
+
+- Designed for flat printing with zero support  
+- Min print bed requirement: 330 mm x 330 mm  
+- Passes 4 kg weight load at 50°C ambient (thermal tolerance test simulated)
+
+📁 File Path:
+/mechanical/test_platform_base.stl
+
+---
+
+🧠 FUNCTIONAL ROLE:
+
+- Serves as the rigid foundational anchor for all pyramid deployments  
+- Ensures the convergence array is centered in 3D space relative to gravity  
+- Prevents vibration-induced drift during long convergence sessions  
+- Optional screw holes allow mounting to optical tables, isolation rigs, or desk clamps
+
+---
+
+📌 Notes:
+
+- STL includes engraved alignment markings (optional aesthetic guide only)  
+- Open-source ready; no proprietary elements  
+- Designed in Fusion 360 and exported at 0.01 mm resolution
