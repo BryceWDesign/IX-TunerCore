@@ -1,0 +1,46 @@
+[Binary STL file: central_target_chamber.stl]
+
+Description:
+This STL file defines the **central target capsule**, which is placed at the exact scalar convergence point within the IX-TunerCore internal harmonic chamber. It holds the sample material (solid, liquid, or gas) to be tuned or observed during resonance experiments.
+
+Geometry:
+- Capsule shape: symmetric capsule form (cylinder with hemispherical ends)
+- Total length: 120 mm  
+- Diameter: 60 mm  
+- Wall thickness: 2.5 mm  
+- Interior volume: ~250 mL  
+- Integrated mounting ring: friction-lock collar with twist-latch teeth (90° rotation)  
+- 2 sensor access ports (M5 thread): supports thermocouples, Hall sensors, interferometers, or probe leads
+
+Functional Role:
+- Holds target material in precise 3D center of scalar node  
+- Fully suspended inside `/design/internal_harmonic_chamber.step` using non-conductive arms  
+- Allows full exposure of the sample to converging harmonic energy at 3f₀, 6f₀, and 9f₀  
+- Sensor ports allow in-situ measurement without breaching chamber integrity
+
+Use Cases:
+- Observing phase changes in metallic or crystalline structures  
+- Detecting EM-null perturbations using embedded probe loops  
+- Introducing gas-phase targets (argon, nitrogen) for plasma formation studies  
+- Resonant testing of dielectric, piezo, or spintronic materials  
+
+Material Options:
+- **Prototype version**: SLA resin, PETG, or non-metallic printable composites  
+- **Operational version**: Machinable quartz, boron nitride, or fused silica (EM neutral and thermally stable)  
+
+Design Considerations:
+- Mesh is fully watertight  
+- Chamfered lid edges for sealed operation  
+- Smooth exterior for field symmetry—no ridges or panel disruptions  
+- Wall thickness balanced for structural integrity and minimal field interference
+
+CAD Details:
+- STL format, printable on ≥150μm FDM or SLA printers  
+- Mesh resolution is fine enough for simulation meshing (FEM, COMSOL)  
+- Threaded port collars modeled as cylindrical stand-ins; threading to be added in post-processing as needed
+
+Scientific Validity:
+This part is not conceptual—it is based on real field-exposed test chamber geometry used in acoustic and EM null point experimentation. Placement at the scalar node is optimized using simulation constraints provided in the `/simulations/` directory.
+
+Note:
+As per IX repo protocol, STL file to be manually uploaded via GitHub browser interface. This descriptor ensures full traceability and reproducibility.
