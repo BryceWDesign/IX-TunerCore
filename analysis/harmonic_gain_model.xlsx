@@ -1,0 +1,53 @@
+📊 Sheet: HGF_Model
+Purpose: Model harmonic gain factor (HGF) across multiple pyramid node phase drifts, magnetic offsets, and light alignment errors
+
+📈 Columns:
+Node_ID	Phase_Error (deg)	Mag_Field_T	Optical_V	HGF
+0–20	[input]	[input]	[input]	[formula]
+
+🔬 Formula Logic (Cell E2 and down):
+
+=IF(ABS(B2)<1, C2*D2/(1+ABS(B2)), 0)
+Where:
+
+B2 = Phase error in degrees
+
+C2 = Magnetic field in Tesla
+
+D2 = Optical sensor voltage
+
+HGF drops to 0 if phase drift exceeds ±1° (lockout condition)
+
+📈 Output Graphs:
+Harmonic Gain vs Node #
+
+Gain Collapse Visualization (for outlier nodes)
+
+3D surface plot (HGF vs Phase Error vs Field Strength)
+
+✅ Tooling:
+Designed for Excel 2016+
+
+Compatible with LibreOffice Calc
+
+Color-coded conditional formatting for:
+
+Phase drift thresholds
+
+Gain loss hotspots
+
+Converged vs disrupted nodes
+
+📂 Placement path:
+
+/analysis/harmonic_gain_model.xlsx
+🧠 Purpose:
+
+Predicts which nodes are losing harmonic sync
+
+Provides a scalar-lock diagnostic in numerical form
+
+Replaces subjective “tuning by eye” with real gain collapse math
+
+Critical for multi-node system validation or failure prediction during drift
+
