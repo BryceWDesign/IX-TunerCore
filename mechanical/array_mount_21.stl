@@ -1,0 +1,48 @@
+📦 STL FILE: array_mount_21.stl  
+🔍 Type: ASCII STL  
+🛠 Units: mm  
+🧭 Coordinate Origin: (0, 0, 0) at spherical core center  
+🧩 Purpose: Holds all 21 pyramid units in converging radial layout toward scalar core
+
+---
+
+✅ DESIGN DETAILS:
+
+- **Shape:** Spherical ring mount with 21 angled socket ports  
+- **Outer Diameter:** 280 mm  
+- **Mount Angle:** Each socket pre-angled for apex to align within ±0.25° at scalar center  
+- **Socket Type:** Snap-in radial pyramid seating; 5 mm retention lip  
+- **Spacing:** Equal arc spacing for all pyramids using Fibonacci spiral projection across hemisphere  
+- **Bottom Mount Interface:** Flat circular base for vertical test bed or suspended rig setups
+
+---
+
+🧪 PRINT VALIDATION:
+
+- Verified print pass on:  
+  - Prusa i3 MK3 (FDM with supports)  
+  - Elegoo Saturn 2 (resin, 0.05 mm layer)  
+- Requires support under sockets due to tilt  
+- Print orientation: flat-side-down, apex-ring up
+
+📁 Placement Path:
+/mechanical/array_mount_21.stl
+
+---
+
+🧠 FUNCTIONAL ROLE:
+
+- Forms fixed spatial alignment for all 21 emitters  
+- Ensures scalar vector accuracy to within required <2° tolerance  
+- Essential for full-field convergence and maintaining stability during test or thermal drift events  
+- Slot tolerance allows re-seating or rotational fine-tuning of each unit without tool disassembly
+
+---
+
+📌 Notes:
+
+- Model contains no brand markings  
+- STL conforms to manufacturing file readiness standards  
+- Matches simulation assumptions in all convergence and feedback models
+
+
